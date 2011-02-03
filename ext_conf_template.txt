@@ -1,0 +1,9 @@
+
+  # cat=basic/enable/256; type=string; label = Locallang Files: Comma seperated list of locallang files to include as javascript so that localization labels can be used in javascript applications. For example "EXT:my_ext/config/locallang.xml, fileadmin/admin/locallang/content/locallang.xml".
+locallangJsFiles = 
+
+  # cat=basic/enable/256; type=string; label = Variable Name: Define the variable name for the javascript locallang array. Defaults to "TYPO3.lang" if undefined.
+locallangVarName = 
+
+  # cat=basic/enable/256; type=boolean; label = Insert in Footer: By default the locallang JavaScript file will be inserted in the page header. Enabling this option will insert the locallang JavaScript file in the page footer (i.e. before the closing body tag). Note: This setting will onyl work TYPO3 versions greater than 4.3.
+includeJSFooter = 
